@@ -3253,7 +3253,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background: url("http://vignette4.wikia.nocookie.net/warframe/images/d/d6/RhinoPrimeAccess.jpg");
 		}
 
 		.wrapper.style1-alt {
@@ -3883,11 +3883,12 @@
 /* Intro */
 
 	#intro {
-		background-attachment: fixed;
+		/*background-attachment: fixed;
 		background-image: url("images/intro.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 100% 100%;*/
+		background-size: cover;
 	}
 
 		#intro p {
